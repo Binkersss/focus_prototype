@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"
+    <title>Settings</title>
+    <link rel="stylesheet" href="../styles.css" />
+</head> 
+<body>
+    <div class="sidebar">
+        <button onclick="window.electronAPI.navigate('dashboard')">Dashboard</button>
+        <button onclick="window.electronAPI.navigate('settings')">Settings</button>
+    </div>
+    <div class="content">
+        <h1>Settings</h1>
+        <label>Work Period (minutes): <input type="number" value="25"></label>
+        <label>Break Period (minutes): <input type="number" value="5"></label>
+    </div>
+</body>
+</html>

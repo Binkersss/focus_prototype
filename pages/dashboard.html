@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+    <div class="sidebar">
+        <button onclick="window.electronAPI.navigate('dashboard')">Dashboard</button>
+        <button onclick="window.electronAPI.navigate('settings')">Settings</button>
+    </div>
+    <div class="content">
+        <h1>Pomodoro Timer</h1>
+        <div id="timer">25:00</div>
+        <button id="startStop">Start</button>
+    </div>
+    <script>
+        let running = false;
+        const startStopBtn = document.getElementById('startStop')
+        startStopBtn.onclick = () => {
+            running = !running;
+            startStopBtn.textContent = running ? 'Stop' : 'Start';
+        };
+    </script>
+</body>
+</html>

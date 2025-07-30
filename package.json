@@ -1,0 +1,23 @@
+{
+  "name": "focus_prototype",
+  "version": "1.0.0",
+  "description": "Small electron app for helping users focus",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Binkersss/focus_prototype.git"
+  },
+  "author": "Nathaniel Chappelle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Binkersss/focus_prototype/issues"
+  },
+  "homepage": "https://github.com/Binkersss/focus_prototype#readme",
+  "devDependencies": {
+    "electron": "^37.2.4"
+  }
+}
