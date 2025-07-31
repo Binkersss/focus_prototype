@@ -1,0 +1,1 @@
+must sudo apt install libnotify-bin
